@@ -1,1 +1,16 @@
-
+//chuong trinh cong hai so nguyen
+#include<stdio.h>
+int main()
+{
+//khai bao bien
+int a,b,sum;
+//nhap du lieu vao;
+printf("Nhap so nguyen a");
+scanf("%d",&a);
+printf("Nhap so nguyen b");
+scanf("%d",&b);
+//cong hai so nguyen
+sum=a+b;
+//hien thi ket qua
+printf("%d la cong hai so nguyen",sum);
+}
